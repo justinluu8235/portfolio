@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './AboutMe.css'
 
 
 class AboutMe extends Component {
@@ -8,11 +9,32 @@ class AboutMe extends Component {
                 {/* <!-- Begin About Me Section --> */}
                     <div class="section-light about-me" id="about-me">
                         <div class="container">
-                            <div class="column is-12 about-me">
-                                <h1 class="title has-text-centered section-title">About Me</h1>
+                            <div class="column is-12 about-me ">
+                                <h1 class="title has-text-centered section-title ">About Me</h1>
                             </div>
-                            <div class="columns is-multiline">
-                                <div
+                            <div class=" about-me-container">
+                                <div class="card">
+                                    <div class="card-icon-container">
+                                        <span class="icon"></span>
+                                        <h2 class="icon-text"> Builder </h2>
+                                    </div>
+                                    <p class="card-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets old</p>
+                                </div>
+                                <div class="card">
+                                    <div class="card-icon-container">
+                                        <span class="icon"></span>
+                                        <h2 class="icon-text"> Builder </h2>
+                                    </div>
+                                    <p class="card-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets old</p>
+                                </div>
+                                <div class="card">
+                                    <div class="card-icon-container">
+                                        <span class="icon"></span>
+                                        <h2 class="icon-text"> Builder </h2>
+                                    </div>
+                                    <p class="card-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets old</p>
+                                </div>
+                                {/* <div
                                     class="column is-6 has-vertically-aligned-content"
                                     data-aos="fade-right"
                                 >
@@ -59,14 +81,14 @@ class AboutMe extends Component {
                                             </p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="column is-6 right-image " data-aos="fade-left">
+                                </div> */}
+                                {/* <div class="column is-6 right-image " data-aos="fade-left">
                                     <img
                                         class="is-rounded"
                                         src="https://picsum.photos/id/366/600/375"
                                         alt=""
                                     />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

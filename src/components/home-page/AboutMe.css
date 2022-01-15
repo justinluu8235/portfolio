@@ -1,0 +1,57 @@
+.about-me-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-me-container:hover .card{
+    /* filter: blur(10px); */
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+
+.about-me-container .card:hover{
+    filter: blur(0px);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.card{
+    width: 30%;
+    padding: 40px;
+    height: 500px;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0, 0.3);
+    background-color: lightgreen;
+    margin: 20px;
+    flex-basis: 350px;
+
+}
+.card-icon-container{
+    text-align: center;
+    font-size: 6rem;
+    color: #252934;
+}
+.icon-text{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #616161;
+    font-size: 1.4rem;
+}
+.card-text{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1rem;
+    color: #616161;
+    text-align: center;
+}
+
+
+.icon{
+   width: 90px;
+   height: 90px;
+}
