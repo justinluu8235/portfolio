@@ -8,12 +8,12 @@
 .about-me-container:hover .card{
     /* filter: blur(10px); */
     transform: scale(0.8);
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .about-me-container .card:hover{
     filter: blur(0px);
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 1;
 }
 
@@ -26,10 +26,9 @@
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 15px 25px rgba(0,0,0, 0.3);
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     margin: 20px;
     flex-basis: 350px;
-
 }
 .card-icon-container{
     text-align: center;
@@ -54,4 +53,73 @@
 .icon{
    width: 90px;
    height: 90px;
+}
+
+.grow-container{
+    padding-top:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+}
+
+.effects{
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    top:0;
+    width:0;
+  transition: 1s ease;
+}
+
+.effects-2{
+   
+    position: absolute;
+    top: 100%;
+    left: 0;
+    top:0;
+    width:0;
+  transition: 1s ease;
+}
+
+
+.blue:hover .effects{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
+}
+.blue:hover .effects-2{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
+}
+
+.red:hover .effects{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
+}
+.red:hover .effects-2{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
+}
+
+.green:hover .effects{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
+}
+.green:hover .effects-2{
+    height: 100%;
+    width: 20px;
+    top: 0;
+    background-color: aqua;
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import AboutMe from './components/home-page/AboutMe';
 import './Showcase.css'
+import Skills from './components/home-page/Skills';
+import Resume from './components/Resume';
 
 class HomePage extends Component {
 
@@ -136,156 +138,23 @@ class HomePage extends Component {
                                 </div>
                                 <div class="column is-10 has-text-centered is-offset-1">
                                     <h2 class="subtitle">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et doloremagna aliqua
                                     </h2>
                                     <form action="example.docs">
+                                        <a href="../../JustinLuu.pdf" download="JustinLuu">
                                         <button class="button">
                                             Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                                         </button>
+                                        </a>
+                        
                                     </form>
+                                    <Resume/>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* <!-- Begin Services Content --> */}
-                    <div class="section-color services" id="services">
-                        <div class="container">
-                            <div class="columns is-multiline">
-                                <div
-                                    class="column is-12 about-me"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
-                                    <h1 class="title has-text-centered section-title">Services</h1>
-
-                                    <h2 class="subtitle">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                    </h2>
-                                    <br />
-                                </div>
-                                <div class="columns is-12">
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fad fa-meteor fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fas fa-paint-brush fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fas fa-rocket fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                </div>
-                                <hr />
-                                <div class="columns is-12">
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fas fa-upload fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fas fa-bus fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                    <div
-                                        class="column is-4 has-text-centered"
-                                        data-aos="fade-in"
-                                        data-aos-easing="linear"
-                                    >
-                                        <i class="fas fa-code fa-3x"></i>
-                                        <hr />
-                                        <h2>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <!-- End Services Content -->
-                    <!-- Begin Skills Content --> */}
-                    <div class="section-light skills" id="skills">
-                        <div class="container">
-                            <div class="columns is-multiline">
-                                <div class="column is-12 about-me">
-                                    <h1 class="title has-text-centered section-title">Skills</h1>
-                                </div>
-                                <div
-                                    class="column is-6"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
-                                    <h1>Adobe Experience Design</h1>
-                                    <progress class="progress" value="70" max="100">30%</progress>
-                                    <h1>Adobe After Effects</h1>
-                                    <progress class="progress" value="65" max="100">30%</progress>
-                                    <h1>Visual Studio Code</h1>
-                                    <progress class="progress" value="58" max="100">45%</progress>
-                                    <h1>Sketch</h1>
-                                    <progress class="progress" value="90" max="100">60%</progress>
-                                </div>
-                                <div
-                                    class="column is-6"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
-                                    <h1>HTML</h1>
-                                    <progress class="progress" value="85" max="100">30%</progress>
-                                    <h1>CSS</h1>
-                                    <progress class="progress" value="95" max="100">30%</progress>
-                                    <h1>VueJS</h1>
-                                    <progress class="progress" value="70" max="100">45%</progress>
-                                    <h1>React</h1>
-                                    <progress class="progress" value="60" max="100">60%</progress>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <!-- End Skills Content -->
-                    <!-- Begin Work Content --> */}
+                    
+                    <Skills/>
+                    {/* <!-- Begin Work Content --> */}
                     <div class="section-dark my-work" id="my-work">
                         <div class="container">
                             <div

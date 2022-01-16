@@ -1,0 +1,46 @@
+.skills-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+
+.indiv-skill-container{
+    height: 180px;
+    width: 250px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.skill-icon-container{
+    width: 100px;
+    height: 100px;
+}
+
+.skill-icon{
+    height: 90px;
+    width: 90px;
+}
+
+.skill-text{
+    padding-top: 1rem;
+    text-align: center;
+    color: #616161;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (min-width: 600px){
+    .skill-text{
+        font-size: 25px;
+    }
+}
+
