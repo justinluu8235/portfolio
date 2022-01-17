@@ -35,7 +35,7 @@ const Work = (props) => {
                                         <p>Github (Backend)</p>
                                     </div>
                                 </a>
-                                <a href="" target="_blank">
+                                <a href="https://procore-constraint-log.herokuapp.com/" target="_blank">
                                     <div class="project-button">
                                         <p>Live Site</p>
                                     </div>
