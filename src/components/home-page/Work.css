@@ -1,0 +1,68 @@
+#my-work{
+    background-color:rgb(221, 240, 221);
+}
+
+
+.columns.all-work-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content:space-around
+}
+
+.work-title-text{
+    min-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.column.is-3.work-container{
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    flex-basis: 350px;
+}
+
+.project-button-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.project-button{
+    border: 2px solid #43485c;
+    background: white;
+    color: #43485c;
+    padding: 0 10px;
+    height: 25px;
+    width: auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.project-title-text{
+    color: #43485c;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.project-description-text{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1rem;
+    color: #616161;
+    text-align: center;
+}
+
+.image.work-item{
+    height: auto;
+    background-size: cover;
+    /* background-size: 375px 300px; */
+}

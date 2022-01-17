@@ -1,8 +1,13 @@
+#about-me{
+    background-color:rgb(221, 240, 221);
+}
+
 .about-me-container{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .about-me-container:hover .card{

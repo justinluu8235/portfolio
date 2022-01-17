@@ -29,6 +29,12 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
 .hero .title {
   font-family: 'Kaushan Script', sans-serif;
   transform: rotate(-5deg);
@@ -104,7 +110,6 @@ html {
 }
 
 .main-content .section-dark.resume {
-  height: 400px;
   padding-top: 100px;
 }
 
@@ -147,7 +152,7 @@ html {
   -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
   border-radius: 5px;
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }

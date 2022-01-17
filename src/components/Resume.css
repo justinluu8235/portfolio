@@ -1,0 +1,34 @@
+.resume{
+    height: 100%;
+}
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+.resume-display-div.hidden{
+    display: none;
+}
+
+.resume-button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.resume-frame{
+    width: 500px;
+    height: 600px;
+}
+
+
+@media screen and (min-width: 600px){
+    .resume-frame{
+        width: 640px;
+    height: 480px;
+    }
+}
