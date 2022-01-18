@@ -8,7 +8,9 @@ const Hero = (props) => {
 
         //get the hero div height
         let heroDivHeight = document.querySelector('.hero-body').clientHeight;
+        let heroDivWidth = document.querySelector('.hero-body').clientWidth;
         console.log("height", heroDivHeight)
+
 
         // Some random colors
         const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
@@ -20,7 +22,7 @@ const Hero = (props) => {
             let ball = document.createElement("div");
             ball.classList.add("ball");
             ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-            ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
+            ball.style.left = `${Math.floor(Math.random() * heroDivWidth)}px`;
             ball.style.top = `${Math.floor(Math.random() * heroDivHeight)}px`;
             ball.style.transform = `scale(${Math.random()})`;
             ball.style.width = `${Math.random()}em`;

@@ -8,6 +8,7 @@ const Resume = (props) => {
     const handleClick = () => {
         console.log(resumeContainer);
         resumeContainer.current.classList.toggle("hidden");
+      
     }
 
     return (
