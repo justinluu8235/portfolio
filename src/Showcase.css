@@ -345,3 +345,7 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.navbar-burger span{
+  background-color: white;
+}

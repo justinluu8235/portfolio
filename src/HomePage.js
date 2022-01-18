@@ -64,7 +64,7 @@ class HomePage extends Component {
                             {/* <!-- Begin Burger Menu --> */}
                             <div class="navbar-brand">
                                 <div class="navbar-burger burger" data-target="mobile-nav">
-                                    <span></span>
+                                    <span class="burger-lines"></span>
                                     <span></span>
                                     <span></span>
                                 </div>
