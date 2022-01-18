@@ -42,7 +42,9 @@ const Work = (props) => {
                                 </a>
                             </div>
                             <h1 class="project-title-text">Procore Constraint Log</h1>
-                            <p class="project-description-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets </p>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ReactJS, ExpressJS, MongoDB, REST APIs</span><br/>
+                            An added function to an existing construction management software used in my previous experience in project management. 
+                            Addresses having to manage multiple spreadsheets outside the software we used to track "constraints"(blockers) for reoccuring meetings </p>
 
                         </div>
 
@@ -65,7 +67,15 @@ const Work = (props) => {
                                 </a>
                             </div>
                             <h1 class="project-title-text">Kitchen Assistant</h1>
-                            <p class="project-description-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets </p>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ExpressJS, EJS, Sequelize, PostgreSQL, REST APIs</span><br/>
+                            A kitchen oriented website that allows you to:<br/>
+                            <span class="tech-stack-text">***</span> CRUD Recipes<br/>
+                            <span class="tech-stack-text">***</span> Get Recipes from an API and add to your own<br/>
+                            <span class="tech-stack-text">***</span> Get Recipes from friends and add to your own<br/>
+                            <span class="tech-stack-text">***</span> Create a menu to plan meals based on your Recipes<br/>
+                            <span class="tech-stack-text">***</span> Generate shopping lists based on your menu or Recipes<br/>
+                            <span class="tech-stack-text">***</span> Manage your pantry to avoid adding items to the shopping list that you always have
+                             </p>
 
                         </div>
 
@@ -88,7 +98,13 @@ const Work = (props) => {
                                 </a>
                             </div>
                             <h1 class="project-title-text">Viral</h1>
-                            <p class="project-description-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets </p>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, NodeJS, ExpressJS, ReactJS, MongoDB, REST APIs</span><br/>
+                            A COVID website that allows users to:<br/>
+                            <span class="tech-stack-text">***</span> View updated COVID Data from API<br/>
+                            <span class="tech-stack-text">***</span> Upload and display Vaccine Photo<br/>
+                            <span class="tech-stack-text">***</span> CRUD Vaccination Sites, their wait times, and reviews<br/>
+
+                             </p>
 
                         </div>
 
@@ -111,7 +127,9 @@ const Work = (props) => {
                                 </a>
                             </div>
                             <h1 class="project-title-text">Color-Pac</h1>
-                            <p class="project-description-text">Between my past in building in construction and now building as a software developer, being able to piece together small building blocks to create something impactful never gets </p>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, Javascript, Canvas</span><br/>
+                            A fun spin on the pacman theme where the player eats ghosts that are the same color as the pacman 
+                            to score a point and loses a point when they bump into a ghost of a different color. <span class="tech-stack-text">***</span>Beware of the continuous color and direction changes of the ghost!</p>
 
                         </div>
 
