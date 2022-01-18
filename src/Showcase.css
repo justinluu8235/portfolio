@@ -14,6 +14,7 @@ html {
   width: 100%;
   min-height: 100%;
   background-color:rgb(221, 240, 221);
+  overflow-x: hidden;
 }
 
 .header-wrapper {
@@ -145,8 +146,7 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-dark.my-work {
-    /* padding: 75px 20px; */
-    padding: 75px;
+    padding: 75px 20px;
   }
 }
 
@@ -203,8 +203,7 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-light.skills {
-    /* padding: 50px 20px 40px 20px; */
-    padding: 50px 0 40px 0;
+    padding: 50px 20px 40px 20px;
     padding-bottom: 20px;
   }
 }
@@ -229,8 +228,7 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-light.contact {
-    /* padding: 60px 20px; */
-    padding: 60px;
+    padding: 60px 20px;
   }
 }
 
