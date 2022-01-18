@@ -13,6 +13,7 @@ html {
   font-family: 'Poppins', Lato, Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
+  background-color:rgb(221, 240, 221);
 }
 
 .header-wrapper {
@@ -62,6 +63,7 @@ html {
 @media (max-width: 599px) {
   .hero .hero-foot {
     display: none;
+  
   }
 }
 
@@ -143,7 +145,8 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-dark.my-work {
-    padding: 75px 20px;
+    /* padding: 75px 20px; */
+    padding: 75px;
   }
 }
 
@@ -200,7 +203,8 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-light.skills {
-    padding: 50px 20px 40px 20px;
+    /* padding: 50px 20px 40px 20px; */
+    padding: 50px 0 40px 0;
     padding-bottom: 20px;
   }
 }
@@ -225,7 +229,8 @@ html {
 
 @media (max-width: 599px) {
   .main-content .section-light.contact {
-    padding: 60px 20px;
+    /* padding: 60px 20px; */
+    padding: 60px;
   }
 }
 
@@ -348,4 +353,14 @@ body.preloader-site {
 
 .navbar-burger span{
   background-color: white;
+}
+
+.navbar-burger{
+  position:fixed
+}
+
+@media screen and (max-width: 1023px){
+  .navbar-menu{
+    position:fixed;
+  }
 }
