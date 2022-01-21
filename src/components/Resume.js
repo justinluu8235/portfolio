@@ -38,7 +38,8 @@ const Resume = (props) => {
                         </div>
                             
                         <div class="resume-display-div hidden" ref={resumeContainer}>
-                            <iframe class="resume-frame" src="https://drive.google.com/file/d/1ZTWc1XbH6sh--C3z11WN4owy2WedHW0q/preview" allow="autoplay"></iframe>
+                            
+                            <iframe class="resume-frame"src="https://drive.google.com/file/d/1Q_j4QRKXES7yI6MERVooU07TK6569gCm/preview" allow="autoplay"></iframe>
                         </div>
                     </div>
                 </div>
