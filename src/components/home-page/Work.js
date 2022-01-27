@@ -69,6 +69,7 @@ const Work = (props) => {
                             <h1 class="project-title-text">Kitchen Assistant</h1>
                             <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ExpressJS, EJS, Sequelize, PostgreSQL, REST APIs</span><br/>
                             A kitchen oriented website that allows you to:<br/>
+                            <span class="tech-stack-text">Test Account: justin@justin.com (user) SEI102599 (password)</span> 
                             <span class="tech-stack-text">***</span> CRUD Recipes<br/>
                             <span class="tech-stack-text">***</span> Get Recipes from an API and add to your own<br/>
                             <span class="tech-stack-text">***</span> Get Recipes from friends and add to your own<br/>
