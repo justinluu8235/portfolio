@@ -24,7 +24,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/kitchen-assistant.png)` }}
+                                style={{ backgroundImage: `url(../../img/work/kitchen-assistantv2.gif)` }}
                             ></figure>
                             <div class="project-button-container">
                                 <a href="https://github.com/justinluu8235/kitchen-assistant-frontend" target="_blank">
@@ -118,7 +118,7 @@ const Work = (props) => {
 
                         </div>
 
-                        
+
                         <div class="column is-3 work-container">
 
                             <figure
