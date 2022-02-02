@@ -37,6 +37,7 @@ const Contact = (props) => {
                                                     type="text"
                                                     placeholder="Ex. Jane Smith"
                                                     name="Name"
+                                                    required
                                                 />
                                                 <span class="icon is-small is-left">
                                                     <i class="fas fa-user"></i>
@@ -51,6 +52,7 @@ const Contact = (props) => {
                                                     type="email"
                                                     placeholder="Ex. hello@arctheme.com"
                                                     name="Email"
+                                                    required
                                                 />
                                                 <span class="icon is-small is-left">
                                                     <i class="fas fa-envelope"></i>
@@ -65,6 +67,7 @@ const Contact = (props) => {
                                                     placeholder="Textarea"
                                                     name="Message"
                                                     minlength="15"
+                                                    required
                                                 ></textarea>
                                             </div>
                                         </div>
