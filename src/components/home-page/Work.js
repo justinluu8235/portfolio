@@ -18,33 +18,41 @@ const Work = (props) => {
                             <h1 class="title has-text-centered section-title work-title-text">My Work</h1>
                         </div>
 
+                        
+
                         <div class="column is-3 work-container">
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/procore.png)` }}
+                                style={{ backgroundImage: `url(../../img/work/kitchen-assistant.png)` }}
                             ></figure>
                             <div class="project-button-container">
-                                <a href="https://github.com/justinluu8235/procore-constraint-log" target="_blank">
+                                <a href="https://github.com/justinluu8235/kitchen-assistant-frontend" target="_blank">
                                     <div class="project-button">
                                         <p>Github (Frontend)</p>
                                     </div>
                                 </a>
-                                <a href="https://github.com/justinluu8235/procore-constraint-log-backend" target="_blank">
+                                <a href="https://github.com/justinluu8235/kitchen-assistant-django-api" target="_blank">
                                     <div class="project-button">
                                         <p>Github (Backend)</p>
                                     </div>
                                 </a>
-                                <a href="https://procore-constraint-log.herokuapp.com/" target="_blank">
+                                <a href="https://kitchen-assistantv2-frontend.herokuapp.com/" target="_blank">
                                     <div class="project-button">
                                         <p>Live Site</p>
                                     </div>
                                 </a>
                             </div>
-                            <h1 class="project-title-text">Procore Constraint Log</h1>
-                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ReactJS, ExpressJS, MongoDB, REST APIs</span><br/>
-                            An added function to an existing construction management software used in my previous experience in project management. 
-                            Addresses having to manage multiple spreadsheets outside the software we used to track "constraints"(blockers) for reoccuring meetings </p>
+                            <h1 class="project-title-text">Kitchen Assistant v2</h1>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, NodeJS, ReactJS, Python, Django, PostgreSQL, REST APIs</span><br/>
+                            A rebuild of the kitchen assistant app with React frontend and Django backend. Additional features include:
+                            <span class="tech-stack-text">Test Account: justin120 (user) SEI102599 (password)</span> 
+                            <span class="tech-stack-text">***</span> Cleaner updates in UI due to React<br/>
+                            <span class="tech-stack-text">***</span> Automatic unit conversion when generating shopping lists<br/>
+                            <span class="tech-stack-text">***</span> Image upload from user stored on Cloudinary<br/>
+                            <span class="tech-stack-text">***</span> Incorporation of pending friend requests sent, pending friend request received, and friend list<br/>
+    
+                             </p>
 
                         </div>
 
@@ -80,6 +88,37 @@ const Work = (props) => {
 
                         </div>
 
+                        <div class="column is-3 work-container">
+
+                            <figure
+                                class="image is-2by1 work-item"
+                                style={{ backgroundImage: `url(../../img/work/procore.png)` }}
+                            ></figure>
+                            <div class="project-button-container">
+                                <a href="https://github.com/justinluu8235/procore-constraint-log" target="_blank">
+                                    <div class="project-button">
+                                        <p>Github (Frontend)</p>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/justinluu8235/procore-constraint-log-backend" target="_blank">
+                                    <div class="project-button">
+                                        <p>Github (Backend)</p>
+                                    </div>
+                                </a>
+                                <a href="https://procore-constraint-log.herokuapp.com/" target="_blank">
+                                    <div class="project-button">
+                                        <p>Live Site</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <h1 class="project-title-text">Procore Constraint Log</h1>
+                            <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ReactJS, ExpressJS, MongoDB, REST APIs</span><br/>
+                            An added function to an existing construction management software used in my previous experience in project management. 
+                            Addresses having to manage multiple spreadsheets outside the software we used to track "constraints"(blockers) for reoccuring meetings </p>
+
+                        </div>
+
+                        
                         <div class="column is-3 work-container">
 
                             <figure
