@@ -32,6 +32,13 @@ class Skills extends Component {
                                     </div>
                                     <div class="skill-text">NodeJS</div>
                                 </div>
+
+                                <div class="indiv-skill-container">
+                                    <div class="skill-icon">
+                                        <img class="skill-icon" src="../../img/skill/react.png"/>
+                                    </div>
+                                    <div class="skill-text">React</div>
+                                </div>
                                 
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">

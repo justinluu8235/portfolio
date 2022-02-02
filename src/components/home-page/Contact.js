@@ -64,6 +64,7 @@ const Contact = (props) => {
                                                     class="textarea"
                                                     placeholder="Textarea"
                                                     name="Message"
+                                                    minlength="15"
                                                 ></textarea>
                                             </div>
                                         </div>
