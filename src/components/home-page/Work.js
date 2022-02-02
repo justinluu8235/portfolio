@@ -45,7 +45,7 @@ const Work = (props) => {
                             </div>
                             <h1 class="project-title-text">Kitchen Assistant v2</h1>
                             <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, NodeJS, ReactJS, Python, Django, PostgreSQL, REST APIs</span><br/>
-                            A rebuild of the kitchen assistant app with React frontend and Django backend. Additional features include:
+                            A rebuild of the kitchen assistant app with React frontend and Django backend. Additional features include:<br/>
                             <span class="tech-stack-text">Test Account: justin120 (user) SEI102599 (password)</span> 
                             <span class="tech-stack-text">***</span> Cleaner updates in UI due to React<br/>
                             <span class="tech-stack-text">***</span> Automatic unit conversion when generating shopping lists<br/>
