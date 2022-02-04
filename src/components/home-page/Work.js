@@ -46,7 +46,7 @@ const Work = (props) => {
                             <h1 class="project-title-text">Kitchen Assistant v2</h1>
                             <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, NodeJS, ReactJS, Python, Django, PostgreSQL, REST APIs</span><br/>
                             A rebuild of the kitchen assistant app with React frontend and Django backend. Additional features include:<br/>
-                            <span class="tech-stack-text">Test Account: justin120 (user) SEI102599 (password)</span> 
+                            <span class="tech-stack-text">Test Account: justin120 (user) SEI102599 (password)</span> <br/>
                             <span class="tech-stack-text">***</span> Cleaner updates in UI due to React<br/>
                             <span class="tech-stack-text">***</span> Automatic unit conversion when generating shopping lists<br/>
                             <span class="tech-stack-text">***</span> Image upload from user stored on Cloudinary<br/>
@@ -77,7 +77,7 @@ const Work = (props) => {
                             <h1 class="project-title-text">Kitchen Assistant</h1>
                             <p class="project-description-text"><span class="tech-stack-text">Tech Stack: HTML, CSS, JS, ExpressJS, EJS, Sequelize, PostgreSQL, REST APIs</span><br/>
                             A kitchen oriented website that allows you to:<br/>
-                            <span class="tech-stack-text">Test Account: justin@justin.com (user) SEI102599 (password)</span> 
+                            <span class="tech-stack-text">Test Account: justin@justin.com (user) SEI102599 (password)</span> <br/>
                             <span class="tech-stack-text">***</span> CRUD Recipes<br/>
                             <span class="tech-stack-text">***</span> Get Recipes from an API and add to your own<br/>
                             <span class="tech-stack-text">***</span> Get Recipes from friends and add to your own<br/>
