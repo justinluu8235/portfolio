@@ -25,6 +25,13 @@
     flex-basis: 350px;
 }
 
+@media screen and (min-width: 1050px){
+    .column.is-3.work-container{
+        flex-basis: 400px;
+    }
+}
+
+
 .project-button-container{
     display: flex;
     flex-direction:row;
