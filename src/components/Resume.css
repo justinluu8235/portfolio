@@ -21,8 +21,15 @@
 }
 
 .resume-frame{
-    width: 500px;
+    width: 350px;
     height: 600px;
+}
+
+@media screen and (min-width: 500px){
+    .resume-frame{
+    width: 450px;
+    height: 480px;
+    }
 }
 
 @media screen and (min-width: 650px){
