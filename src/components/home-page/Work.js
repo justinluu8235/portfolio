@@ -126,9 +126,15 @@ const Work = (props) => {
                                 style={{ backgroundImage: `url(../../img/work/viral.png)` }}
                             ></figure>
                             <div class="project-button-container">
+                               
                                 <a href="https://github.com/justinluu8235/viral-app" target="_blank">
                                     <div class="project-button">
-                                        <p>Github</p>
+                                        <p>Github (Frontend)</p>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/justinluu8235/viral-api" target="_blank">
+                                    <div class="project-button">
+                                        <p>Github (Backend)</p>
                                     </div>
                                 </a>
                                 <a href="https://viral-covid.herokuapp.com/" target="_blank">
