@@ -16,7 +16,7 @@ class AboutMe extends Component {
                                 <div class="card blue">
                                     <div class="card-icon-container">
                                         <span class="icon">
-                                            <img src={'/img/about-me/hammer.gif'}/>
+                                            <img src={'img/about-me/hammer.gif'}/>
                                         </span>
                                         <h2 class="icon-text"> Builder </h2>
                                     </div>
@@ -27,7 +27,7 @@ class AboutMe extends Component {
                                 <div class="card red">
                                     <div class="card-icon-container grow-container">
                                         <span class="icon">
-                                            <img class="grow-gif" src="../../img/about-me/grow.gif"/>
+                                            <img class="grow-gif" src="img/about-me/grow.gif"/>
                                         </span>
                                         <h2 class="icon-text grow-gif">Always Improving </h2>
                                     </div>
@@ -38,7 +38,7 @@ class AboutMe extends Component {
                                 <div class="card green">
                                     <div class="card-icon-container">
                                         <span class="icon">
-                                        <img class="grow-gif" src="../../img/about-me/tea.gif"/>
+                                        <img class="grow-gif" src="img/about-me/tea.gif"/>
                                         </span>
                                         <h2 class="icon-text"> Coffee or Tea? </h2>
                                     </div>
