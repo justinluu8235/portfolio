@@ -16,7 +16,7 @@ class AboutMe extends Component {
                                 <div class="card blue">
                                     <div class="card-icon-container">
                                         <span class="icon">
-                                            <img src={'img/about-me/hammer.gif'}/>
+                                            <img src={'/img/about-me/hammer.gif'}/>
                                         </span>
                                         <h2 class="icon-text"> Builder </h2>
                                     </div>
