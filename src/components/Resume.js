@@ -27,7 +27,7 @@ const Resume = (props) => {
                     </div>
                     <div class="column is-10 has-text-centered is-offset-1  resume-container">
                         <div class="resume-button-container">
-                            <a href="../JustinLuu.pdf" download="JustinLuu.pdf">
+                            <a href="JustinLuu.pdf" download="JustinLuu.pdf">
                                     <button class="button" >
                                         Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                                     </button>

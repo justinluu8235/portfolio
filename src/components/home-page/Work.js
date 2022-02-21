@@ -24,7 +24,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/kitchen-assistantv2.gif)` }}
+                                style={{ backgroundImage: `url(img/work/kitchen-assistantv2.gif)` }}
                             ></figure>
                             <div class="project-button-container">
                                 <a href="https://github.com/justinluu8235/kitchen-assistant-frontend" target="_blank">
@@ -60,7 +60,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/kitchen-assistant.png)` }}
+                                style={{ backgroundImage: `url(img/work/kitchen-assistant.png)` }}
                             ></figure>
                             <div class="project-button-container">
                                 <a href="https://github.com/justinluu8235/kitchen-assistant" target="_blank">
@@ -92,7 +92,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/procore.png)` }}
+                                style={{ backgroundImage: `url(img/work/procore.png)` }}
                             ></figure>
                             <div class="project-button-container">
                                 <a href="https://github.com/justinluu8235/procore-constraint-log" target="_blank">
@@ -123,7 +123,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/viral.png)` }}
+                                style={{ backgroundImage: `url(img/work/viral.png)` }}
                             ></figure>
                             <div class="project-button-container">
                                
@@ -158,7 +158,7 @@ const Work = (props) => {
 
                             <figure
                                 class="image is-2by1 work-item"
-                                style={{ backgroundImage: `url(../../img/work/color-pac.gif)` }}
+                                style={{ backgroundImage: `url(img/work/color-pac.gif)` }}
                             ></figure>
                             <div class="project-button-container">
                                 <a href="https://github.com/justinluu8235/color-pac-game" target="_blank">

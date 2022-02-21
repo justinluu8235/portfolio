@@ -16,58 +16,58 @@ class Skills extends Component {
                             <div class="skills-container">
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon-container">
-                                        <img class="skill-icon" src="../../img/skill/html.png"/>
+                                        <img class="skill-icon" src="img/skill/html.png"/>
                                     </div>
                                     <div class="skill-text">HTML</div>
                                 </div>
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/css.png"/>
+                                        <img class="skill-icon" src="img/skill/css.png"/>
                                     </div>
                                     <div class="skill-text">CSS</div>
                                 </div>
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/nodejs.png"/>
+                                        <img class="skill-icon" src="img/skill/nodejs.png"/>
                                     </div>
                                     <div class="skill-text">NodeJS</div>
                                 </div>
 
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/react.png"/>
+                                        <img class="skill-icon" src="img/skill/react.png"/>
                                     </div>
                                     <div class="skill-text">React</div>
                                 </div>
                                 
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/psql.png"/>
+                                        <img class="skill-icon" src="img/skill/psql.png"/>
                                     </div>
                                     <div class="skill-text">PostgreSQL</div>
                                 </div>
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/mongo.png"/>
+                                        <img class="skill-icon" src="img/skill/mongo.png"/>
                                     </div>
                                     <div class="skill-text">MongoDB</div>
                                 </div>
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/java.png"/>
+                                        <img class="skill-icon" src="img/skill/java.png"/>
                                     </div>
                                     <div class="skill-text">Java</div>
                                 </div>
 
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/python.jpeg"/>
+                                        <img class="skill-icon" src="img/skill/python.jpeg"/>
                                     </div>
                                     <div class="skill-text">Python</div>
                                 </div>
                                 <div class="indiv-skill-container">
                                     <div class="skill-icon">
-                                        <img class="skill-icon" src="../../img/skill/django.png"/>
+                                        <img class="skill-icon" src="img/skill/django.png"/>
                                     </div>
                                     <div class="skill-text">Django</div>
                                 </div>
